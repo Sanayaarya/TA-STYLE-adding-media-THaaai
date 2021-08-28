@@ -73,6 +73,10 @@ header{
     display: flex;
     justify-content: space-evenly;
     }
+    .flex-sb{
+        display: flex;
+        justify-content: space-between;
+    }
 .big-box-1{
     height: 450px;
     width: 1000px;
@@ -129,9 +133,29 @@ p{
     justify-content: space-evenly;
     flex-direction: column;
 }
-.design{
+/* .design{
     display: flex;
     justify-content: space-between;
+} */
+.progress-bar{
+    width: 85%;
+    height: 5px;
+    background-color: black;
+}
+.progress-bar-1{
+    width: 90%;
+    height: 5px;
+    background-color: black;
+}
+.progress-bar-2{
+    width: 75%;
+    height: 5px;
+    background-color: black;
+}
+.progress-bar-3{
+    width: 70%;
+    height: 5px;
+    background-color: black;
 }
 .box-3{
     height: 390px;
@@ -401,6 +425,101 @@ p2{
   .call{
     font-size: 10px;
     color: white; 
+  }
+
+
+
+
+
+
+  .contact {
+    padding: 40px;
+    
+    background: linear-gradient(to right, #217cdf, #7bed6a);
+    color: white;
+  }
+  .form {
+    width: 65%;
+    margin: 0 auto;
+  }
+  input {
+    width: 46%;
+    height: 50px;
+    border-style: none;
+    margin-bottom: 10px;
+    margin-left: 19px;
+    padding: 0 8px;
+    border-radius: 7px;
+    font-size: 14px;
+  }
+  #message {
+    width: 95%;
+    margin-left: 20px;
+    border-style: none;
+    border-radius: 7px;
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+  .button-send {
+    padding: 19px 60px;
+    margin-left: 20px;
+    border-style: none;
+    font-size: 16px;
+    border-radius: 25px;
+    color: white;
+    background-color: #cf3732;
+    margin-top: 15px;
+  }
+  .google-map {
+    border-radius: 50%;
+  }
+  .footer {
+    background: linear-gradient(to right, #404040, #020202);
+    color: white;
+    padding: 80px;
+  }
+  .flex-footer {
+    display: flex;
+  }
+  .company {
+    margin-left: 80px;
+  }
+  .hydro-company {
+    width: 40%;
+  }
+  .hydro-company p{
+      font-size:16px;
+  }
+  .about-box {
+    margin-left: 60px;
+  }
+  .flex-footer h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .flex-footer h5 {
+    font-size: 15px;
+    color: #d8d8d8;
+  }
+  .copyright {
+    font-size: 16px;
+    margin-top: 50px;
+    border-top: 1px solid white;
+    padding-top: 30px;
+  }
+  .copyright h4 {
+    margin-left: 320px;
+  }
+  .copyright .icon {
+    margin-left: 40px;
+  }
+  .us{
+      margin-left: 30px;
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  .call{
+      font-size: 18px;
   }
 
 
